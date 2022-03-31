@@ -99,3 +99,16 @@ section i:hover{
 a{
   text-decoration: none;
 }
+
+.background-integrantes{
+  height: 25vw;
+  background-image: url("img/Integrantes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  @media (max-width: 768px) {                  
+   .hide-text {
+      display: none;
+   }
+}
