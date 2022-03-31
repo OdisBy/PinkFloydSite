@@ -35,11 +35,16 @@ section i:hover{
 }
 
 .musicaDisplay{
+  display:flex;
+  flex-direction: row;
   font-size:30px; 
-  justify-content:center; 
+  justify-content: center; 
   align-items: center; 
   border-radius:300px; 
+  flex-wrap: wrap;
 }
+
+
 
 .remove-border:focus {
   outline: 0;
