@@ -1,0 +1,96 @@
+body{
+   background-color:#212529
+}
+
+.bg-image{
+  height: 50vw;
+  background-image: url(https://initiate.alphacoders.com/images/171/stretched-1366-768-17137.jpg?5885);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image h2{
+  font-size: 4vw;
+  text-shadow: 0px 0px 10px white;
+}
+
+.logo{
+  height: 10px;
+}
+
+nav li>a:hover{
+  border-bottom: 2px solid white;
+}
+
+main{
+  color: white;
+}
+
+section .row{
+  color: black;
+}
+
+section i:hover{
+  border-bottom: 5px solid black;
+}
+
+.musicaDisplay{
+  font-size:30px; 
+  justify-content:center; 
+  align-items: center; 
+  border-radius:300px; 
+}
+
+.remove-border:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, .20);
+}
+
+
+#agenda th{
+  font-size: 1.5vw;
+}
+
+#agenda td{
+  height: 100px;
+  width: 14.29%;
+}
+
+#agenda td.bg-info{
+ color: white; 
+}
+
+#agenda td:hover{
+  border: 2px solid blueviolet;
+}
+
+.current-day {
+	background: #ba51c2 !important;
+	color: #f9f9f9;
+}
+
+.event{
+  cursor: pointer;
+	position: relative;
+}
+
+.event:after {
+	background: #00addf;
+	border-radius: 50%;
+	bottom: .5em;
+	display: block;
+	content: '';
+	height: .5em;
+	left: 50%;
+	margin: -.25em 0 0 -.25em;
+	position: absolute;
+	width: .5em;
+}
+
+.event.current-day:after {
+	background: #f9f9f9;
+}
+
+a{
+  text-decoration: none;
+}
