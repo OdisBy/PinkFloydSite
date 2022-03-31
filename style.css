@@ -4,7 +4,7 @@ body{
 
 .bg-image{
   height: 50vw;
-  background-image: url(https://initiate.alphacoders.com/images/171/stretched-1366-768-17137.jpg?5885);
+  background-image: url("img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
